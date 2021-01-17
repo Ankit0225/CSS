@@ -1,0 +1,50 @@
+.container{
+   background-color: aqua;
+    color: blue;
+    margin: 20px;
+    height: 500px;
+    width: 500px;
+    border: black solid 4px;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+.box{
+    background-color: chartreuse;
+    color: crimson;
+    font-size: 25px;
+    margin: 10px;
+  width: 120px;  
+  height: 60px;
+border: solid black 2px;
+text-align: center;
+line-height: 50px;
+
+}
+.one .four{
+    position: absolute;
+    left: 180px;
+    top: 100px;
+}
+.one .five{
+    position: fixed;
+    
+    left: 180px;
+    top: 100px;
+}
+.container>.two{
+    position: sticky;
+     z-index: 2;
+    top: 10px;
+    bottom: 30px;
+}
+.container:nth-child(2n){
+    background-color: lightcoral;
+}
+.box:nth-child(3n){
+    background-color: lightskyblue;
+}
+.one>.three{
+    position: relative;
+z-index: 5;
+}

@@ -1,0 +1,17 @@
+ul > li{
+    color: blue;
+}
+ol > li{
+    color: crimson;
+}
+li{
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+ul ul{
+    font-style: italic;
+}
+ol ~ ul {
+    background-color: black;
+}

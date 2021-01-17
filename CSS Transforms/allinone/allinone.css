@@ -1,0 +1,52 @@
+div{
+    background-color: darkblue;
+    color:yellow;
+    margin: 25px;
+    border: 8px double black;
+    height: 120px;
+    width: 120px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.four{
+    transform: skew(20deg,20deg);
+}
+.seven{
+  transform: skewX(-30deg) skewY(40deg);
+}
+#ten{
+    transform: rotateX(45deg);
+}
+#ten:active{
+width: 200px;
+height: 200px;
+background-color: red;
+color: greenyellow;
+font-size: 200px;
+transform: rotate(45deg);
+}
+#eleven{
+transform: rotateY(60deg);
+}
+.fourteen:active{
+    transform: rotateX(45deg) rotateY(145deg);
+}
+.sixteen{
+    transform: rotate(30deg) scale(1.5,0.7);
+}
+#nineteen:hover{
+    transform: rotate(45deg) translate(100px,30px) scale(2,2);
+}
+#nineteen:active{
+    transform: scale(4,4) rotate(90deg);
+}
+.three:hover{
+    background-color: black;
+    color: white;
+    border: 9px solid yellow;
+    transform: translate(50px,50px);
+}
+input:focus{
+    width: 200px;
+    font-size: 30px;
+}

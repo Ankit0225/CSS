@@ -1,0 +1,27 @@
+*{
+    font-style: italic;
+}
+
+div{
+    color: red;
+}
+para{
+    color: blue;
+}
+.big{
+    font-size: 25pt;
+}
+#s1{
+    background-color: blueviolet;
+}
+#s2{
+    padding-left: 40px;
+    font-size: 20pt;
+}
+input[disabled]{
+        height: 100px;
+    width: 300px;
+}
+input[type="text"]{
+    font-size: 30pt;
+}

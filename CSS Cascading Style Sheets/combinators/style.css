@@ -1,0 +1,13 @@
+h2 + p {
+    font-weight: bold;
+}
+#one{
+    font-size: 15pt;
+}
+h2 ~ p{
+    color: green;
+}
+section > p{
+    background-color: blue;
+    font-family: monospace;
+}

@@ -1,0 +1,28 @@
+.container{
+    display: inline-flex;
+    background-color: blue;
+    color: wheat;
+    height: 500px;
+    width: 500px;
+    border: solid black 3px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 30px;
+    /*how items within a row are aligned in order */
+    justify-content: center;
+    /*align-items within the row perpendicularly */
+    align-items: baseline;
+    /*how all the rows together are aligned*/
+    align-content:center;
+}
+.item{
+    background-color: red;
+    color: snow;
+    height: 40px;
+    width: 50px;
+    font-size: 30px;
+        
+   border: double black 8px;
+   line-height: 40px;
+   text-align: center;
+}

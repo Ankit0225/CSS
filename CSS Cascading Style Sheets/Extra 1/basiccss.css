@@ -1,0 +1,28 @@
+*{
+    color: blue;
+    
+}
+body{
+    margin-top: 180px;
+}
+div{
+    color:red;
+    margin-left: 40pt;
+}
+p{
+    color: green;
+    font-size: 30px;
+}
+#p2{
+    font-family: fantasy;
+}
+#p3{
+    margin-left: 20px;
+    font-family: courier;
+}
+.osmpara{
+    background-color: indigo;
+}
+.bigpara{
+    font-size: 60px;
+}

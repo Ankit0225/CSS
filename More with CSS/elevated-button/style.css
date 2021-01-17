@@ -1,0 +1,22 @@
+div.amazon{
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 40px;
+    padding: 20px;
+    width: 250px;
+    margin: 200px;
+    border-radius: 30px;
+    transition: 0.7s;
+    box-shadow: black 12px 12px 12px;
+
+}div.amazon:hover{
+    transform: translate(15px, 15px);
+    box-shadow: black 24px 24px 24px;
+    transition: 0.4s;
+    background-color: tomato;
+}div.amazon:active{
+    transition: 0.2s;
+    box-shadow: black 6px 6px 6px;
+    background-color: blueviolet;
+    transform: translate(6px , 6px);
+}

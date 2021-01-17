@@ -1,0 +1,19 @@
+div {
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: red;
+    margin: 30px;
+
+}
+.seven{
+    
+    transform: skewX(-40deg) skewY(40deg) skewX(40deg) skewY(-40deg);
+}
+.five{
+    transform: skew(10deg ,25deg) rotate(30deg)
+}
+.two{
+    transform: rotateY(40deg);
+}

@@ -1,0 +1,76 @@
+ol {
+    background-color: black;
+    color: white;
+    list-style: decimal;
+    width: 400px;
+    
+}
+.subtype{
+opacity: 0;
+}
+
+
+.subtype:hover{
+    opacity: 1;
+    background-color: turquoise;
+    color: crimson;
+    font-style: italic;
+    width: 300px;
+}
+#subtext{
+    opacity: 0;
+}
+#subtext:hover{
+    opacity: 1;
+    background-color: cornflowerblue;
+    color: green;
+    font-family: fantasy;
+    width: 300px;
+}
+#p1{
+    opacity: 0;
+
+}
+#p1:hover{
+    color: indigo;
+    background-color: lawngreen;
+    opacity: 1;
+    font-style: italic;
+    font-weight: bold;
+    width: 300px;
+}
+.s1{
+    opacity: 0;
+}
+.s1:hover{
+    color: chocolate;
+    font-family: monospace;
+    background-color: darkgray;
+    opacity: 1;
+    font-style: italic;
+    margin-left: 2px;
+    width: 300px;
+}
+p:hover{
+    color: darkred;
+    font-size: 30px;
+    
+}
+.sub{
+    opacity: 0;
+}
+.sub:hover{
+    opacity: 1;
+    background-color: deeppink;
+    color: black;
+    width: 200px;
+}
+.subject{
+    opacity: 0;
+}
+.subject:hover{
+    opacity: 1;
+    background-color: coral;
+    color: #383332;
+    width: 300px;
+}

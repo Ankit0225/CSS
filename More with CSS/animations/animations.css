@@ -1,0 +1,42 @@
+.ankit{
+    width: 500px;
+    height: 550px;
+    margin: 50px;
+    border-radius: 5px;
+    border: dashed yellow 8px;
+    background-color: violet;
+    color: maroon;
+    font-size: 30px;
+}
+.antim{
+    display: inline-block;
+    background-color: blue;
+    color: mediumblue;
+        width: 100px;
+        height: 100px;
+    border: double black 4px;
+    margin: 5px;
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+    }
+    .one{
+        animation-timing-function: linear;
+    }
+    .two{
+        animation-timing-function: ease-in;
+    }
+    .three{
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes bounce {
+        0%{
+      background-color: black;
+                }
+        50%{
+            transform: translateY(400px);
+        background-color: white; 
+        }
+        100%{
+       
+        }
+    }

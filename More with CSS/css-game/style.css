@@ -1,0 +1,50 @@
+.game{
+    background-color: lawngreen;
+    width: 600px;
+    height: 600px;
+    border: double black 5px;
+}
+.player{
+    background-color: aqua;
+    transform: translateY(300px);
+    height: 60px;
+    width: 60px;
+    border: solid black 2px;
+    animation: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+.enemy{
+    background-color: firebrick;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-block-start: -60px;
+    margin-left: 100px;
+    animation: bounce 3s infinite;
+    border: solid black 2px;
+
+}
+@keyframes bounce{
+    50%{
+        transform: translateY(500px);
+    }
+}
+@keyframes move{
+    50%{
+        transform: translateX(530px) translateY(300px);
+    }
+}
+.game:active .player{
+    animation-play-state: running;
+}
+.one{
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+}
+.two{
+    animation-duration: 7s;
+    animation-delay: 4s;
+    animation-timing-function: ease-out;
+}

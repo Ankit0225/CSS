@@ -1,0 +1,21 @@
+.class{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+}
+@media (max-width: 1000px){
+    .class{
+    background-color: dodgerblue;
+}
+}
+@media (max-width: 750px){
+    .class{
+        background-color: firebrick;
+    }
+}
+@media (max-width: 500px){
+    .class{
+        background-color: greenyellow;
+    }
+}

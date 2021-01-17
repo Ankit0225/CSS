@@ -1,0 +1,14 @@
+.box{
+    margin: 20px;
+    padding: 10px;
+    border: 5px double  black;
+}
+#d1{
+    background-color: lightslategray;
+}
+#d2{
+    background-color: limegreen;
+}
+#d3{
+    background-color: magenta;
+}
