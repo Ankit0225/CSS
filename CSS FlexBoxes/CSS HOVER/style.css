@@ -1,9 +1,14 @@
+*{
+    background-color: lightgoldenrodyellow;
+}
+
+
 h1{
     transform: translate(500px);
-   
+    color: coral;
     transition: 5s;
     position: relative;
-    transform: scale(1,1);
+   
 }
 
 
