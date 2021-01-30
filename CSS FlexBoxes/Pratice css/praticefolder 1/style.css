@@ -1,0 +1,21 @@
+div{
+    margin: 30px;
+    padding: 15px;
+    border: double black 4px;
+    background-color: brown;
+    
+ }
+.a {
+    background-color: aqua;
+}
+.b{
+    background-color: azure;
+}
+
+.c{
+    background-color: chartreuse;
+}
+.d{
+    background-color: wheat;
+}
+
