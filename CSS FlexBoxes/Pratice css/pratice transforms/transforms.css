@@ -1,14 +1,39 @@
+* {
+    background-color: black;
+}
+
 div{
     color: red;
     background-color: tan;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 160px;
     border: solid black 4px;
     margin: 10px;
+    font-size: 30px;
+    padding: 12px;
 } 
  
  
  
  .one:hover {
 transform: skew(40deg);
+}
+
+.two:hover{
+ transform: skewY(45deg);   
+}
+.Three:hover:active{
+    transform: rotateX(70deg);
+}
+.Four:hover:active{
+    transform: rotateZ(120deg);
+}
+.Five:hover{
+    transform: scale(2,2);
+}
+.six:active{
+    transform: translate(200px,200px);
+}
+.Seven:active {
+    transform: translateX(-120px) translateY(40px) rotateZ(90deg );
 }
