@@ -1,0 +1,20 @@
+#para1 {
+    font-size: 5vh; 
+    /* font size: 5vh; 1vh = 1/100 of window height */
+}
+
+#para2 {
+
+/*font-family: serif; */
+font-family: sans-serif; 
+
+}
+#para3 {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#para4 {
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
