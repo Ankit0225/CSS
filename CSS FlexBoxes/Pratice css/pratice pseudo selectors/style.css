@@ -2,4 +2,11 @@ div{
     background-color: aqua;
     color: red;
     font-size: 50px;
+    margin: 10px;
+}
+div:hover{
+    background-color: antiquewhite;
+}
+div:active{
+    background-color: aquamarine;
 }
