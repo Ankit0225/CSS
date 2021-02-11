@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+ display: flex;
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ background: #333333;
+ flex-wrap: wrap;
+ overflow: hidden;
+ animation: changecolor 7s linear infinite;
+}
+@keyframes changecolor{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+span{
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ff0a;
+    border-radius: 50%;
+    transform: scale(0.2);
+    box-shadow: 0 0 10px  #00ff0a,
+                0 0 20px  #00ff0a,
+                0 0 40px  #00ff0a,
+                0 0 60px  #00ff0a,
+                0 0 80px  #00ff0a,
+                0 0 100px  #00ff0a;
+                pointer-events: none;
+                transition: 1.5s;
+}
+span:hover::before{
+    transform: scale(0.8);
+    transition: 0s;
+}
