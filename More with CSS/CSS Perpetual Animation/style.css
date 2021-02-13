@@ -28,12 +28,15 @@ body{
 @keyframes animate{
     0%{
         transform: rotate(0deg);
+        filter: hue-rotate(0deg)
     }
     50%{
         transform: rotate(100deg);
+        filter: hue-rotate(360deg);
     }
     100%{
         transform: rotate(0deg);
+        filter: hue-rotate(0deg);
     }
 }
 .container .loader .ball{
@@ -50,7 +53,7 @@ body{
         transform: rotate(0deg);
     }
     50%{
-        transform: rotate(180deg);
+        transform: rotate(175deg);
     }
     100%{
         transform: rotate(0deg);
