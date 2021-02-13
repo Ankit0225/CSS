@@ -19,7 +19,7 @@ body{
     background: linear-gradient(50deg,transparent,transparent 30%,#e5f403);
     animation: color 3s linear infinite;
 }
-@keyframes color{ 
+@keyframes color{  
    0%{
        transform: rotate(0deg);
        filter: hue-rotate(0deg);
