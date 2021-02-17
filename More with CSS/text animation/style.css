@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+    overflow: hidden;
+}
+.box{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+   
+    font-size: 110px;
+    word-spacing: 20px;
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 60px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 100px #00b3ff;
+    
+}
+.lightbar{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 10px;
+    height: 80%;
+    border-radius: 20px;
+    background: #ffffff;
+    z-index: 2;
+    box-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 60px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 100px #00b3ff;
+  animation: lightbar 6.6s linear infinite;
+}
+@keyframes lightbar{
+    0%{
+      transform: translateX(0px);  
+      
+    }
+    50%{
+        transform: translateX(955px);
+        
+    }
+    100%{
+        transform: translateX(0px);
+      
+    }
+}
+.toplayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    animation: box 6.6s linear infinite;
+}
+@keyframes box{
+    0%{
+        transform: translateX(0px);  
+        
+      }
+      50%{
+          transform: translateX(950px);
+          
+      }
+      100%{
+          transform: translateX(0px);
+        
+      }
+}
