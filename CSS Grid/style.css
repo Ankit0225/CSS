@@ -1,12 +1,12 @@
 .grid-container{
-    
+    padding: 10px;
     display: grid;         
     grid-template-columns: 250px 500px; /* 1st column 2nd column */ 
     grid-template-rows: 200px 300px 100px;  /* 1st row 2nd row 3rd row */ 
     grid-gap: 10px;
     justify-content: center;
     align-content: center;
-    height: 100vh;
+    height: 120vh;
     text-align: center;
     grid-template-areas: 
     "header header"
