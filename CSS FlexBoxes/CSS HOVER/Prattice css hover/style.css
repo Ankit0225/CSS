@@ -3,14 +3,6 @@
 }
 
 
-h1{
-    transform: translate(500px);
-    color: coral;
-    transition: 5s;
-    position: relative;
-   
-}
-
 
 .cat{
 width: 100%;
@@ -22,7 +14,17 @@ left: 0;
 background-repeat: repeat;
 background-size: 500% 500%;
 transition: 5s;
+animation: animate 8s  linear infinite;
 }
-.box:hover .cat {
-    background-position: 100% 100%;
+
+@keyframes animate{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
